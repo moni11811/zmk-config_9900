@@ -167,7 +167,7 @@
         default_layer {
             bindings = <
 &mkp LCLK     &mkp RCLK
-&tdsc         &htsk LGUI LGUI  &mkp LCLK             &kp ESC  &sk RCTRL
+&kp TAB       &htsk LGUI LGUI  &mkp LCLK             &kp ESC  &sk RCTRL
 &kp Q         &kp W            &kp E                 &kp R    &kp T         &kp Y        &kp U         &kp I                &kp O  &kp P
 &kp A         &kp S            &kp D                 &kp F    &kp G         &kp H        &kp J         &kp K                &kp L  &kp BSPC
 &htl ALT ALT  &kp Z            &kp X                 &kp C    &kp V         &kp B        &kp N         &kp M                &tdp   &kp RET
@@ -177,12 +177,12 @@
 
         alt_layer {
             bindings = <
-&msc SCRL_UP   &msc SCRL_DOWN
-&htsk TAB TAB  &htsk LGUI LGUI  &mkp LCLK        &kp ESC  &sk RCTRL
-&kp HASH       &kp N1           &kp N2           &kp N3   &kp LPAR   &kp RPAR     &kp UNDER     &kp MINUS             &kp PLUS  &kp AT
-&kp STAR       &kp N4           &kp N5           &kp N6   &kp SLASH  &kp COLON    &kp SEMI      &kp APOS              &kp DQT   &kp BSPC
-&to DEFAULT    &kp N7           &kp N8           &kp N9   &kp QMARK  &kp EXCL     &kp COMMA     &kp DOT               &kp DLLR  &kp RET
-                                &hts CAPS LSHFT           &kp N0     &kp SPACE    &htl SYM SYM  &hts CAPSLOCK RSHIFT
+&msc SCRL_UP  &msc SCRL_DOWN
+&kp TAB       &htsk LGUI LGUI  &mkp LCLK        &kp ESC  &sk RCTRL
+&kp HASH      &kp N1           &kp N2           &kp N3   &kp LPAR   &kp RPAR     &kp UNDER     &kp MINUS        &kp PLUS  &kp AT
+&kp STAR      &kp N4           &kp N5           &kp N6   &kp SLASH  &kp COLON    &kp SEMI      &kp APOS         &kp DQT   &kp BSPC
+&to DEFAULT   &kp N7           &kp N8           &kp N9   &kp QMARK  &kp EXCL     &kp COMMA     &kp DOT          &kp DLLR  &kp RET
+                               &hts CAPS LSHFT           &kp N0     &kp SPACE    &htl SYM SYM  &htsk LALT LALT
             >;
         };
 
