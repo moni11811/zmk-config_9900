@@ -4,6 +4,12 @@
  * SPDX-License-Identifier: MIT
  */
 
+/*
+ * Note for repo users:
+ * The primary keymap edited in normal GitHub workflows is config/bb9900.keymap.
+ * Keep this board-scoped copy in sync only when you intentionally update both.
+ */
+
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/bt.h>
